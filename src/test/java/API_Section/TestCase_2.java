@@ -10,9 +10,9 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 public class TestCase_2 {
 
     @Test
-    public void TC_1_Get() {
+    public void TC_1_Get_By_ID() {
 
-//        ResponseBody body = response.getBody();
+
             given().baseUri("https://jsonplaceholder.typicode.com/").and()
                     .when().get("posts/1").then().log().all()
                     .assertThat().statusCode(200)
