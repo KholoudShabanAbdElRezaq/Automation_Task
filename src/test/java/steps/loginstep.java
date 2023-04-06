@@ -107,7 +107,7 @@ public class loginstep extends Base {
        String expected = "Please enter a valid name";
        WebElement element= webDriver.findElement(By.xpath("/html/body/app-root/div/app-checkout-page-cc/div/div/div[3]/div/div/div[2]/div[2]/form/div/div/div[1]/div[1]/app-alert/div/div/div/div[2]/div/div/div"));
         Assert.assertEquals(true , element.isDisplayed());
-        System.out.println("Test Passed");
+        System.out.println("Test Passed !");
 
     }
 
